@@ -30,3 +30,8 @@ Objective => [CKA](https://www.cncf.io/certification/cka/)
     - https://github.com/chadmcrowell/CKA-Exercises
     - https://gist.github.com/texasdave2/8f4ce19a467180b6e3a02d7be0c765e7
     - https://github.com/stretchcloud/cka-lab-practice
+
+---
+
+alias k='kubectl'
+source <(kubectl completion bash | sed 's/kubectl/k/g')
